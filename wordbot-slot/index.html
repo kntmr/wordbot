@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>wordbot slot</title>
+  <style>
+  body { height: 100%; }
+  #app {
+    padding-top: 10%;
+  }
+  .container, .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    padding: 20px 0;
+  }
+  .box {
+    width: 120px;
+    height: 120px;
+    margin: 0 5px;
+    border: solid 1px gold;
+  }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <div id="box0" class="box"></div>
+      <div id="box1" class="box"></div>
+      <div id="box2" class="box"></div>
+    </div>
+    <div class="container">
+      <button id="run">START</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
